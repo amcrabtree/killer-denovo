@@ -30,7 +30,7 @@ flag | description
 
 2. **Reverse read file** – File contains raw NGS reads in reverse orientation; “R2” should be in the filename somewhere (ex: “NCYC190_S3_L001_R2_001.fastq.gz”); can be .fastq or .fastq.gz
 
-Because this script filters out genomic contaminants (from Homo sapiens, Saccharomyces cerevisiae, and Saccharomyces paradoxus), genomes must be downloaded to the ./refseq folder. Running the following script will automate downloading the required genomes from the RefSeq database. 
+Because this script filters out genomic contaminants (from Homo sapiens GCF_000001405.39, Saccharomyces cerevisiae GCF_000146045.2, and Saccharomyces paradoxus GCF_002079055.1), genomes must be downloaded to the ./refseq folder. Running the following script will automate downloading the required genomes from the RefSeq database. 
 
 ```
 cd killer-denovo
